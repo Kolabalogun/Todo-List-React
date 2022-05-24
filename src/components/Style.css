@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-transform: capitalize;
+  /* height: 100vh; */
+}
+
+div {
+  margin: 0;
+  padding: 0;
+}
+
+.line {
+  padding: 1px;
+  width: 40px;
+  border-bottom: 3px rgb(72, 159, 220) solid;
+}
+
+.alert {
+  padding: 0px 15px;
+  background-color: white;
+  border-radius: 5px;
+  color: rgb(103, 197, 221);
+  position: absolute;
+  top: 70px;
+}
+.alert > p {
+padding: 5px;
+  /* color: rgb(114, 208, 231); */
+  /* color : rgb(170, 36, 36) ; */
+  
+}
+
+
+
+.main {
+  width: 670px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 30px;
+}
+h1 {
+  text-align: center;
+}
+
+.details {
+  padding: 20px;
+  background-color: white;
+  display: flex;
+  width: 400px;
+  flex-direction: column;
+  border-radius: 5px;
+  box-shadow: 0px 0px 3px 1px rgb(230, 222, 222);
+  margin-top: 80px;
+  text-align: center;
+}
+
+.inputdiv {
+}
+
+input {
+  padding: 7px 3px;
+  width: 80%;
+  background-color: rgb(240, 248, 255);
+  border: none;
+  border-radius: 5px;
+}
+
+.inputdiv > button {
+  margin: 10px;
+  padding: 7px 10px;
+
+  border: none;
+  border-radius: 5px;
+
+  font-size: 14px;
+
+  cursor: pointer;
+
+  color: rgb(255, 255, 255);
+
+  background-color: rgb(103, 197, 221);
+}
+
+.lists {
+  margin-top: 10px;
+}
+
+.list {
+  background-color: aliceblue;
+  border-radius: 5px;
+  display: flex;
+  color: black;
+  justify-content: space-between;
+  padding: 5px;
+  margin: 10px 10px 0px 0px;
+}
+
+p {
+  font-size: 13px;
+  color: rgb(95, 111, 124);
+  /* margin: 7px 0px; */
+}
+
+span {
+  padding: 0px 5px;
+  font-size: 13px;
+  cursor: pointer;
+  text-transform: capitalize;
+  color: rgb(49, 134, 194);
+  cursor: pointer;
+}
+
+.danger {
+  color:rgb(170, 36, 36) ;
+}
+
+button {
+  margin: 20px 10px 0px 0px;
+  padding: 7px;
+
+  border: 1px solid;
+  border-radius: 5px;
+
+  font-size: 12px;
+
+  cursor: pointer;
+
+  color: rgb(187, 112, 42);
+
+  background-color: transparent;
+}
